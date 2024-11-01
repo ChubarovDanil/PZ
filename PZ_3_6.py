@@ -1,3 +1,4 @@
+#
 def is_point_inside_rectangle(x, y, x1, y1, x2, y2):
     if x1 > x2:
         x1, x2 = x2, x1
