@@ -1,3 +1,4 @@
+#
 import random
 week_days = {
     0: 'воскресенье',
