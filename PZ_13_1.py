@@ -1,3 +1,4 @@
+#В двумерном списке элементы последнего столбца заменить на -1.
 def replace_last_column(matrix):
     for row in matrix:
         if row: 
@@ -18,4 +19,5 @@ result = replace_last_column(matrix)
 
 print("\nМатрица после замены последнего столбца:")
 for row in result:
+
     print(row)
