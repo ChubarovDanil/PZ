@@ -1,3 +1,4 @@
+#Составить генератор (yield), который преобразует все буквенные символы в строчные
 def lowercase_generator(input_sequence):
     """Генератор, преобразующий все буквенные символы в строчные"""
     for item in input_sequence:
@@ -10,4 +11,5 @@ input_data = ['Hello', 'WORLD', 42, 'PyThOn', '123', 'СъЕШЬ ещё этих
 result = list(lowercase_generator(input_data))
 
 print("Исходные данные:", input_data)
+
 print("После преобразования:", result)
