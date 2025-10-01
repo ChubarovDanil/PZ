@@ -1,3 +1,7 @@
+#В исходном текстовом файле(hotline1.txt) найти всеномера телефонов, 
+#соответствующих шаблону 8(000)000-00-00. Посчитать количество полученных 
+#элементов. После фразы «Горячая линия» добавить фразу «Министерства 
+#образования Ростовской области», выполнив манипуляции в новом файле. 
 import re
 
 with open('hotline1.txt', 'r', encoding='utf-8') as file:
@@ -18,5 +22,6 @@ new_content = content.replace(
 
 with open('hotline_new.txt', 'w', encoding='utf-8') as new_file:
     new_file.write(new_content)
+
 
 print("\nФайл успешно обработан и сохранён как 'hotline_new.txt'")
