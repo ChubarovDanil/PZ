@@ -1,3 +1,5 @@
+#Реализовать прототип в IDE PyCharm Community с применением пакета tk. Получить интерфейс максимально 
+#приближенный к оригиналу
 import tkinter as tk
 from tkinter import ttk, filedialog
 
@@ -139,4 +141,5 @@ class ContactForm:
 if __name__ == "__main__":
     root = tk.Tk()
     app = ContactForm(root)
+
     root.mainloop()
