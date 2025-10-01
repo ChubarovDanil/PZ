@@ -1,3 +1,5 @@
+#В двумерном списке элементы третьей строки заменить элементами из одномерного 
+#динамического массива соответствующей размерности. 
 def replace_third_row(matrix, new_row):
     
     if len(matrix) >= 3:
@@ -29,4 +31,5 @@ result = replace_third_row(matrix, new_row)
 
 print("\nМатрица после замены третьей строки:")
 for row in result:
+
     print(row)
